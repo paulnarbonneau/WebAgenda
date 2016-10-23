@@ -1,0 +1,12 @@
+version: '2'
+services:
+    webagenda-postgresql:
+        container_name: webagenda-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/webagenda/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=webagenda
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
