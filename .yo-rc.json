@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.7.1",
+    "baseName": "webagenda",
+    "packageName": "fr.narbonneau.web.webagenda",
+    "packageFolder": "fr/narbonneau/web/webagenda",
+    "serverPort": "8080",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr",
+      "en"
+    ]
+  }
+}
